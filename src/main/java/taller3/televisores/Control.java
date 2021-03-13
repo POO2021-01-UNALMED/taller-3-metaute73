@@ -34,7 +34,7 @@ public class Control {
 	
 	public void canalUp() {
 		if (tv.estado) {
-			if (tv.canal >= 1 && tv.canal < 120) {
+			if (tv.canal >= 0 && tv.canal < 120) {
 				tv.canal++;
 			}
 		}else {
@@ -43,7 +43,7 @@ public class Control {
 	}
 	public void canalDown() {
 		if (tv.estado) {
-			if (tv.canal > 1 && tv.canal <= 120) {
+			if (tv.canal > 0 && tv.canal <= 120) {
 				tv.canal--;
 			}
 		}else {
