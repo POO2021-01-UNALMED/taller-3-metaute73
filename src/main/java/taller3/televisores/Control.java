@@ -15,8 +15,6 @@ public class Control {
 			if (tv.volumen >= 0 && tv.volumen <7) {
 				tv.volumen++;
 			}
-		}else {
-			return;
 		}
 		
 	}
@@ -25,8 +23,6 @@ public class Control {
 			if (tv.volumen > 0 && tv.volumen <=7) {
 				tv.volumen--;
 			}
-		}else {
-			return;
 		}
 	}
 	
@@ -37,8 +33,6 @@ public class Control {
 			if (tv.canal >= 0 && tv.canal < 120) {
 				tv.canal++;
 			}
-		}else {
-			return;
 		}
 	}
 	public void canalDown() {
@@ -46,8 +40,6 @@ public class Control {
 			if (tv.canal > 0 && tv.canal <= 120) {
 				tv.canal--;
 			}
-		}else {
-			return;
 		}
 	}
 	
