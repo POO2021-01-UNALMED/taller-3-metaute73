@@ -24,10 +24,10 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	public void setNumTV(int numTV) {
-		this.numTV = numTV;
+	static public void setNumTV() {
+		numTV++;
 	}
-	public int getNumTV() {
+	static public int getNumTV() {
 		return numTV;
 	}
 	public void volumenUp() {
@@ -115,6 +115,12 @@ public class TV {
 	
 	public int getCanal() {
 		return canal;
+	}
+	public void setControl(Control control) {
+		this.control = control;
+	}
+	public Control getControl() {
+		return control;
 	}
 
 }
