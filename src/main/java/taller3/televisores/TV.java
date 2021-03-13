@@ -24,8 +24,8 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	static public void setNumTV() {
-		numTV++;
+	static public void setNumTV(int i) {
+		numTV = i;
 	}
 	static public int getNumTV() {
 		return numTV;
